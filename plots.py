@@ -4,7 +4,7 @@ import math
 
 
 def solution_plot(i_max, s_list):
-    plt.plot(range(0, i_max), s_list)
+    plt.scatter(range(0, i_max), s_list)
     plt.title("Solutions per i")
     plt.xlabel("i")
     plt.ylabel("Solutions")
